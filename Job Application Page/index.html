@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Job Application</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="applyBox">
+
+      <div class="heading">
+        <h1>Job Application <span class="title_small">(SDE Role)</span></h1>
+      </div>
+
+      <form action="">
+        <div class="formContainer">
+
+          <!-- First Name -->
+          <div class="formControl">
+            <label for="first_name">First Name</label>
+            <input id="first_name" name="first_name" placeholder="Enter First Name" type="text">
+          </div>
+
+          <!-- Last Name -->
+          <div class="formControl">
+            <label for="last_name">Last Name</label>
+            <input id="last_name" name="last_name" placeholder="Enter Last Name" type="text">
+          </div>
+
+          <!-- Email -->
+          <div class="formControl">
+            <label for="email">Email</label>
+            <input id="email" name="email" placeholder="Enter your email" type="email">
+          </div>
+
+          <!-- Job Role -->
+          <div class="formControl">
+            <label for="job_role">Job Role</label>
+            <select name="job_role" id="job_role">
+              <option value="sde1">SDE Intern</option>
+              <option value="fullstack">SDE I - Full Stack </option>
+              <option value="frontend">SDE I - Front End </option>
+              <option value="android">SDE I - Android</option>
+              <option value="ios">SDE I - iOS</option>
+              <option value="sde1">SDE II - iOS</option>
+            </select>
+          </div>
+
+          <!-- Address -->
+          <div class="formControl textAreaControl">
+            <label for="address">Address</label>
+            <textarea name="address" id="address" cols="50" rows="4" placeholder=" Enter Address"></textarea>
+          </div>
+
+          <!-- City -->
+          <div class="formControl">
+            <label for="city">City</label>
+            <input id="city" name="city" placeholder="Enter City Name" type="text">
+          </div>
+
+          <!-- Pin Code -->
+          <div class="formControl">
+            <label for="pincode">Pin Code</label>
+            <input id="pincode" name="pincode" placeholder="Enter Pin Code" type="number">
+          </div>
+
+          <!-- Date -->
+          <div class="formControl">
+            <label for="date">First Name</label>
+            <input value="2022-01-10" id="date" name="date" type="date">
+          </div>
+
+          <!-- Upload File -->
+          <div class="formControl">
+            <label for="upload">Resume</label>
+            <input id="upload" name="upload" type="file">
+          </div>
+
+
+        </div>
+
+        <div class="apply">
+          <button type="submit">Apply Now</button>
+        </div>
+      </form>
+
+
+    </div>
+  </div>
+
+</body>
+
+</html>
